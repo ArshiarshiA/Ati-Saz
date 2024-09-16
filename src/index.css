@@ -1,0 +1,28 @@
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Add Font */
+/* Scroll Bar */
+html::-webkit-scrollbar{
+  width: 8px;
+  background-color: black;
+}
+html::-webkit-scrollbar-thumb{background-color: rgb(87, 87, 87)}
+@font-face {
+  font-family: 'vazir';
+  src: url('./assets/fonts/Vazir.ttf');
+}
+*{padding: 0; margin: 0; box-sizing: border-box; text-decoration: none; list-style-type: none;}
+html{
+  font-family: 'vazir','sans-serif';
+}
+.active{
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+.bg-item{
+  background-image: url('./assets/img/HeroBackground.jpg');
+  background-blend-mode: multiply;
+  background-color: rgb(105 105 105);
+}

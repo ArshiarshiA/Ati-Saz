@@ -1,0 +1,58 @@
+{
+    "files": [
+        {
+            "id": "2d3d",
+            "code": 1000,
+            "Meterage": 12000,
+            "price": "16,200,000",
+            "location": "مشهد شاهد 35",
+            "control": "تجاری",
+            "room": 2
+        },
+        {
+            "id": "6b7s",
+            "code": 1001,
+            "Meterage": 2270,
+            "price": "1,200,000",
+            "location": "مشهد شاهد 35",
+            "control": "مسکونی",
+            "room": 2
+        },
+        {
+            "id": "8b7s",
+            "code": 1002,
+            "Meterage": 227,
+            "price": "1,200,000",
+            "location": "مشهد شاهد 35",
+            "control": "تجاری",
+            "room": 2
+        },
+        {
+            "id": "63xs",
+            "code": 1003,
+            "Meterage": 227,
+            "price": "1,200,000",
+            "location": "مشهد شاهد 35",
+            "control": "ویلایی",
+            "room": 2
+        },
+        {
+            "id": "9ex2",
+            "code": 1003,
+            "Meterage": 227,
+            "price": "1,200,000",
+            "location": "مشهد شاهد 35",
+            "control": "تجاری",
+            "room": 2
+        },
+        {
+            "id": "10ex2",
+            "code": 1004,
+            "Meterage": 3500,
+            "price": "1,200,000",
+            "location": "مشهد شاهد 35",
+            "control": "تجاری",
+            "room": 2
+        }
+    ]
+}
