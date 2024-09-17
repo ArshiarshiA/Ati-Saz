@@ -9,6 +9,7 @@ import { TbBusinessplan } from "react-icons/tb";
 import { FaChartBar } from "react-icons/fa";
 import { SlArrowLeft } from "react-icons/sl";
 import { useState } from "react";
+import Footer from "../../Components/Footer/Footer";
 
 function Home() {
 
