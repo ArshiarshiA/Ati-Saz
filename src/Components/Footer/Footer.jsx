@@ -45,7 +45,7 @@ export default function Footer() {
             <div className='py-5 border-t-2 border-t-gray-200'>
                 <div className='w-[1200px] m-auto flex justify-between text-black dark:text-white'>
                     <p>توسعه و طراحی : ارشیا منصوری</p>
-                    <p>تمام موارد محفوظ است</p>
+                    <p>تمام موارد متعلق به املاک آتی ساز میباشد</p>
                 </div>
             </div>
         </footer>

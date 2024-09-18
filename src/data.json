@@ -7,7 +7,8 @@
             "price": "16,200,000",
             "location": "مشهد شاهد 35",
             "control": "تجاری",
-            "room": 2
+            "room": 2,
+            "direction": "شمالی"
         },
         {
             "id": "6b7s",
@@ -16,7 +17,8 @@
             "price": "1,200,000",
             "location": "مشهد شاهد 35",
             "control": "مسکونی",
-            "room": 2
+            "room": 2,
+            "direction": "شمالی"
         },
         {
             "id": "8b7s",
@@ -25,7 +27,8 @@
             "price": "1,200,000",
             "location": "مشهد شاهد 35",
             "control": "تجاری",
-            "room": 2
+            "room": 2,
+            "direction": "جنوبی"
         },
         {
             "id": "63xs",
@@ -34,25 +37,28 @@
             "price": "1,200,000",
             "location": "مشهد شاهد 35",
             "control": "ویلایی",
-            "room": 2
+            "room": 2,
+            "direction": "جنوبی"
         },
         {
             "id": "9ex2",
-            "code": 1003,
+            "code": 1004,
             "Meterage": 227,
             "price": "1,200,000",
             "location": "مشهد شاهد 35",
             "control": "تجاری",
-            "room": 2
+            "room": 2,
+            "direction": "جنوبی"
         },
         {
             "id": "10ex2",
-            "code": 1004,
+            "code": 1005,
             "Meterage": 3500,
             "price": "1,200,000",
             "location": "مشهد شاهد 35",
             "control": "تجاری",
-            "room": 2
+            "room": 2,
+            "direction": "جنوبی"
         }
     ]
 }

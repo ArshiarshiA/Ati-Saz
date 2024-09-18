@@ -13,7 +13,6 @@ export default function Search() {
 
     return (
         <Layout>
-            <Header />
             <section className="max-w-[1200px] m-auto py-10">
                 <p className="dark:text-white text-black">1 نتیجه یافت شد</p>
                 {isLoading ? (

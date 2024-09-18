@@ -1,5 +1,4 @@
 import Layout from "../../Layout";
-import Header from "../../Components/Header/Header";
 import Services from "../../Components/services/Services";
 import EstateSec from "../../Components/EstateSec/estateSec";
 import { Link } from "react-router-dom";
@@ -9,7 +8,6 @@ import { TbBusinessplan } from "react-icons/tb";
 import { FaChartBar } from "react-icons/fa";
 import { SlArrowLeft } from "react-icons/sl";
 import { useState } from "react";
-import Footer from "../../Components/Footer/Footer";
 
 function Home() {
 
@@ -19,7 +17,6 @@ function Home() {
 
     return (
         <Layout>
-            <Header />
             <section className="min-h-[800px] bg-item bg-cover bg-no-repeat bg-bottom">
                 <div className="max-w-[1200px] m-auto">
                     <div className="py-20 text-center">
@@ -46,7 +43,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="px-5">
-                            <div className="flex justify-stretch py-20">
+                            <div className="flex justify-stretch py-20 max-sm:flex-col max-sm:items-center">
                                 <Services children={<TbBusinessplan className="m-auto my-2 text-3xl text-yellow-400" />} text="یک متن تصادفی صرفا برای پر کردن محتوا و نگرفتن وقت اضافی در توسعه" title="ویژگی" />
                                 <Services children={<FaChartBar className="m-auto my-2 text-3xl text-yellow-400" />} text="یک متن تصادفی صرفا برای پر کردن محتوا و نگرفتن وقت اضافی در توسعه" title="ویژگی" />
                                 <Services children={<IoBusiness className="m-auto my-2 text-3xl text-yellow-400" />} text="یک متن تصادفی صرفا برای پر کردن محتوا و نگرفتن وقت اضافی در توسعه" title="ویژگی" />

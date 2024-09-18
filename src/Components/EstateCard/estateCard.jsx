@@ -7,7 +7,7 @@ import { FiMapPin } from "react-icons/fi";
 
 export default function EstateCard({ code, img = estate, price, control, meterage, location, room }) {
     return (
-        <div className='w-4/12 p-5'>
+        <div className='w-4/12 max-md:w-6/12 max-sm:w-full p-5'>
             <div className='overflow-hidden shadow-cus-shadow'>
                 <img className='w-full object-cover' src={img} alt="عکس ملک" />
                 <div className='text-black dark:text-white flex flex-col gap-2 mt-4 px-4'>
