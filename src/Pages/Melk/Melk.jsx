@@ -10,32 +10,34 @@ import { CiCompass1 } from "react-icons/ci";
 
 export default function Melk() {
 
-    let [data, isLoading] = useAxios(`http://localhost:3000/files`)
+    let [data, isLoading] = useAxios(`http://localhost:3001/files`)
     let melkId = useParams()
 
     return (
         <Layout>
             <section>
-                <div className="flex gap-5 max-w-[1200px] m-auto py-10">\
+                <div className="flex gap-5 max-w-[1200px] m-auto py-10">
                     {isLoading ? (
-                        <h1>درحال بارگذاری</h1>
+                        <h1 className="text-black dark:text-white">درحال بارگذاری</h1>
                     ) : (
                         data.filter(item => item.code == melkId.MelkCode)
                             .map(result => (
                                 <>
-                                    <div className="text-black dark:text-white">
+                                    <div key={result.id} className="text-black dark:text-white border rounded-lg overflow-hidden">
                                         <img className="w-96 object-cover" src={defaultImg} alt="" />
-                                        <div className="flex gap-2 mt-3">
-                                            <p>قیمت : {result.price}تومان</p>
+                                        <div className="p-3">
+                                            <div className="flex gap-2 mt-3">
+                                                <p>قیمت : {result.price}تومان</p>
+                                            </div>
+                                            <div className="flex gap-2 my-4">
+                                                <LuMapPin />
+                                                <p>آدرس : {result.location}</p>
+                                            </div>
+                                            <a href="tel:09333008246" className="flex items-center gap-3 w-[60%] bg-yellow-400 text-black rounded-md p-1">
+                                                <FaPhoneFlip />
+                                                <span>منصوری : 09333008246</span>
+                                            </a>
                                         </div>
-                                        <div className="flex gap-2 my-4">
-                                            <LuMapPin />
-                                            <p>آدرس : {result.location}</p>
-                                        </div>
-                                        <a href="tel:09333008246" className="flex items-center gap-3 w-[60%] bg-yellow-400 text-black rounded-md p-1">
-                                            <FaPhoneFlip />
-                                            <span>منصوری : 09333008246</span>
-                                        </a>
                                     </div>
                                     <div className="self-end border border-gray-300 text-black dark:text-white rounded-md p-5">
                                         <div className="flex gap-5">

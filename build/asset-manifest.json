@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.256b5f98.css",
+    "main.js": "/static/js/main.92f97953.js",
+    "static/media/estate.jpg": "/static/media/estate.ba81f1b1f4b4a983a33e.jpg",
+    "static/media/HeroBackground.jpg": "/static/media/HeroBackground.3905de7b73f3f0fe4f7e.jpg",
+    "static/media/Vazir.ttf": "/static/media/Vazir.8698ab7164cb8aa9f35b.ttf",
+    "static/media/atiSazlogo.png": "/static/media/atiSazlogo.d027413c9c86aa1c3ba0.png",
+    "index.html": "/index.html",
+    "main.256b5f98.css.map": "/static/css/main.256b5f98.css.map",
+    "main.92f97953.js.map": "/static/js/main.92f97953.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.256b5f98.css",
+    "static/js/main.92f97953.js"
+  ]
+}

@@ -19,12 +19,12 @@ function Home() {
         <Layout>
             <section className="min-h-[800px] bg-item bg-cover bg-no-repeat bg-bottom">
                 <div className="max-w-[1200px] m-auto">
-                    <div className="py-20 text-center">
+                    <div className="py-20 px-3 text-center">
                         <ReactTyped
                             className="text-white text-3xl"
                             showCursor
                             strings={[
-                                'ملک رویایی شما در فایلینگ املاک ماست',
+                                'برآورده کردن ملک رویایی شما تخصص ما است',
                                 '',
                                 ''
                             ]}
@@ -36,19 +36,19 @@ function Home() {
                         </ReactTyped>
                         <div>
                             <div className="my-5 mt-20 flex justify-center items-center">
-                                <input onChange={takeValueHandler} autoFocus placeholder="کد یا اسم فایل مورد نظر خود را وارد کنید" className="bg-[#47474794] text-white w-2/4 rounded-full outline-none p-3" type="text" />
+                                <input onChange={takeValueHandler} autoFocus placeholder="کد یا اسم فایل مورد نظر خود را وارد کنید" className="bg-[#47474794] text-white w-2/4 rounded-full outline-none p-3 max-[563px]:w-11/12" type="text" />
                                 <Link to={`/search/${searchValue}`}>
                                     <SlArrowLeft className="bg-[#47474794] w-10 h-10 p-3 mr-4 text-white rounded-full hover:mr-6 transition-all" />
                                 </Link>
                             </div>
                         </div>
-                        <div className="px-5">
+                        {/* <div className="px-5">
                             <div className="flex justify-stretch py-20 max-sm:flex-col max-sm:items-center">
                                 <Services children={<TbBusinessplan className="m-auto my-2 text-3xl text-yellow-400" />} text="یک متن تصادفی صرفا برای پر کردن محتوا و نگرفتن وقت اضافی در توسعه" title="ویژگی" />
                                 <Services children={<FaChartBar className="m-auto my-2 text-3xl text-yellow-400" />} text="یک متن تصادفی صرفا برای پر کردن محتوا و نگرفتن وقت اضافی در توسعه" title="ویژگی" />
                                 <Services children={<IoBusiness className="m-auto my-2 text-3xl text-yellow-400" />} text="یک متن تصادفی صرفا برای پر کردن محتوا و نگرفتن وقت اضافی در توسعه" title="ویژگی" />
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
